@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">SYM Template Activity</string>
+    <string name="email">E-mail</string>
+    <string name="psw">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="wronglogin">Login failed</string>
+    <string name="wrong">Email or Password not recognized</string>
+    <string name="good">Valid login, welcome !</string>
+    <string name="nonValidEmail">Email format non valid</string>
+    <string name="logged">Your are logged</string>
+    <string name="log_out">logout</string>
+    <string name="log_succes">"Welcome back: "</string>
+    <string name="error_email">Error during email parsing, sorry!</string>
+    <string name="profile">User profile</string>
+    <string name="IMEI">Error during IMEI recuperation</string>
+
+</resources>

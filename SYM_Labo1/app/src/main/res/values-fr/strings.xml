@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email">E-mail</string>
+    <string name="wrong">Email ou Mot de passe not reconnu</string>
+    <string name="wronglogin">Erreur de Login</string>
+    <string name="psw">Mot de passe</string>
+    <string name="signin">Connexion</string>
+    <string name="good">Connexion validée, Bienvenue!</string>
+    <string name="logged">Vous êtes connecté</string>
+    <string name="nonValidEmail">Format d\'adresse Email non valide</string>
+    <string name="log_out">Déconnexion</string>
+    <string name="log_succes">"Bienvenue : "</string>
+    <string name="error_email">Erreur lors de la récupération de l\'email</string>
+    <string name="profile">Profil utilisateur</string>
+    <string name="IMEI">Erreur durant la récupération de l\'IMEI du téléphone</string>
+</resources>
