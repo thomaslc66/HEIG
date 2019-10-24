@@ -1,0 +1,10 @@
+
+menu "Filesystems"
+
+config FS_FAT
+        bool "FAT Filesystem"
+
+endmenu
+        
+
+

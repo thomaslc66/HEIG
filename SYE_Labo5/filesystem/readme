@@ -1,0 +1,22 @@
+
+SO3 filesystem support.
+
+vExpress
+--------
+
+- An image can be created using dd, for example (16 MB): 
+    dd if=/dev/zero of=flash bs=4096 count=4096
+    
+- Apply the following command to set up loopback device
+    sudo losetup --partscan --find --show flash
+
+- Make a FAT32 partition using fdisk
+
+- Format as following:
+    mkfs.vfat /dev/loop0p1
+    
+
+Use the ./stf script to load qemu.
+
+Within U-boot, just make the following command to list all entries in the partition
+    fatls mmc 0:1

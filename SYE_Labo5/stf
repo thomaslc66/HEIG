@@ -1,0 +1,4 @@
+#!/bin/sh
+qemu-2.6.0/arm-softmmu/qemu-system-arm $1 -s -M vexpress-a15 -kernel u-boot-2014.04/u-boot -tftp . -m 1024 -serial mon:stdio -nographic -drive file=filesystem/flash,format=raw,if=sd -codecheck
+
+

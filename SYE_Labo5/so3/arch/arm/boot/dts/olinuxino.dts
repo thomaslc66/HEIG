@@ -1,0 +1,68 @@
+/*
+ * Copyright (C) 2014 REDS Institute - UE POS
+ */
+ 
+/dts-v1/;
+
+#include "skeleton.dtsi"
+
+/ {
+    model = "Allwinner A20 OlinuXino";
+    compatible = "allwinner,a20-olinuxino";
+    
+    cpus {
+         #address-cells = <1>;
+         #size-cells = <0>;
+
+         cpu@0 {
+         	compatible = "arm,cortex-a7";
+                device_type = "cpu";
+                reg = <0>;
+               };
+
+    };
+
+    memory {
+        device_type = "memory";
+        reg = <0x40000000 0x80000000>; /* 1GB RAM @ 0x40000000 */
+    };
+
+    /* GIC interrupt controller */
+    interrupt-controller@01c81000 {
+        compatible = "allwinner,a20-intc"; 
+        reg = <0x01c81000 0x2000>;
+        interrupt-controller;
+        status = "ok";
+    };
+    
+    /* Console UART = UART0 */
+    serial@01c28000 {
+        compatible = "allwinner,a20-uart";
+        reg = <0x01C28000 0x400>;
+        interrupts = <33>;
+        status = "ok";
+    };
+
+    /* System timer */
+    timer@01C20C00 {
+        compatible = "allwinner,a20-timer";
+        reg = <0x01C20C00 0x20>;
+        interrupts = <54>;
+        status = "ok";
+    };
+   
+    /* GPIO and pinmux */
+    gpio@01C20800 {
+        compatible = "allwinner,a20-gpio-pinmux";
+        reg = <0x01C20800 0x21C>;
+        status = "ok";
+    };
+
+   /* System timer */
+   i2c@01C2AC00 {
+        compatible = "allwinner,a20-i2c";
+        reg = <0x01C2AC00>;
+        status = "ok";
+    };
+
+};

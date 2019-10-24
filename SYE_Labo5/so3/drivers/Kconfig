@@ -1,0 +1,18 @@
+
+menu "Drivers"
+
+config UART
+	bool "Driver UART"
+
+config TIMER
+	bool "Driver Timer"
+		
+config SPI
+	bool "Driver SPI"
+
+config I2C
+	bool "Driver I2C"
+
+source "drivers/mmc/Kconfig"
+
+endmenu

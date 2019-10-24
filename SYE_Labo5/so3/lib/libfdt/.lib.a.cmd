@@ -1,0 +1,1 @@
+cmd_lib/libfdt/lib.a := rm -f lib/libfdt/lib.a; arm-linux-gnueabihf-ar rcs lib/libfdt/lib.a lib/libfdt/fdt.o lib/libfdt/fdt_addresses.o lib/libfdt/fdt_empty_tree.o lib/libfdt/fdt_ro.o lib/libfdt/fdt_rw.o lib/libfdt/fdt_strerror.o lib/libfdt/fdt_sw.o lib/libfdt/fdt_wip.o

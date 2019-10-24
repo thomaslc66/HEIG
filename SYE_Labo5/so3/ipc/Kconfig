@@ -1,0 +1,8 @@
+
+menu "IPC"
+
+
+config IPC_PIPE
+        bool "Pipes IPC"
+
+endmenu

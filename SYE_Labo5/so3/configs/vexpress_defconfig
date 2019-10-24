@@ -1,0 +1,54 @@
+#
+# Automatically generated make config: don't edit
+# SO3 Configuration
+#
+
+#
+# General
+#
+CONFIG_CROSS_COMPILE="arm-linux-gnueabihf-"
+
+#
+# Platform
+#
+CONFIG_STANDALONE=y
+CONFIG_VEXPRESS=y
+CONFIG_RAM_BASE=0x80000000
+CONFIG_MMC_PL180=y
+CONFIG_KERNEL_VIRT_ADDR=0xc0000000
+
+#
+# Drivers
+#
+CONFIG_UART=y
+CONFIG_TIMER=y
+# CONFIG_SPI is not set
+# CONFIG_I2C is not set
+CONFIG_MMC=y
+# CONFIG_THREAD_ENV is not set
+CONFIG_PROC_ENV=y
+
+#
+# SO3 Applications
+#
+# CONFIG_APP_TEST_MALLOC is not set
+CONFIG_APP_DEFAULT=y
+
+#
+# Filesystems
+#
+CONFIG_FS_FAT=y
+
+#
+# IPC
+#
+CONFIG_IPC_PIPE=n
+CONFIG_MMU=y
+CONFIG_DEBUG_PRINTK=y
+
+#
+# Generated files
+#
+CONFIG_ELF=y
+CONFIG_BIN=y
+CONFIG_ITB=y

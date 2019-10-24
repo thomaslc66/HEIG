@@ -1,0 +1,5 @@
+
+
+config MMC_PL180
+        bool "ARM MMC pl180 device support"
+        

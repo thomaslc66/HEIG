@@ -1,0 +1,1 @@
+cmd_arch/arm/built-in.o :=  arm-linux-gnueabihf-ld    -r -o arch/arm/built-in.o arch/arm/cacheflush.o arch/arm/setup.o arch/arm/exception.o arch/arm/context.o arch/arm/fault.o arch/arm/boot/built-in.o arch/arm/devices/built-in.o arch/arm/vexpress/built-in.o arch/arm/mmu.o

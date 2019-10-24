@@ -1,0 +1,1 @@
+cmd_so3 := arm-linux-gnueabihf-ld --defsym=ENTRY_ADDR=0xc0000000 -T arch/arm/arm.lds -o so3 kernel/built-in.o mm/built-in.o fs/built-in.o ipc/built-in.o arch/arm/built-in.o drivers/built-in.o apps/built-in.o lib/lib.a lib/libfdt/lib.a -L /opt/toolchains/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3 -lgcc

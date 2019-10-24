@@ -1,0 +1,1 @@
+cmd_kernel/built-in.o :=  arm-linux-gnueabihf-ld    -r -o kernel/built-in.o kernel/main.o kernel/eabi_compat.o kernel/delay.o kernel/calibrate.o kernel/thread.o kernel/schedule.o kernel/mutex.o kernel/spinlock.o kernel/sync.o kernel/syscalls.o kernel/process.o kernel/softirq.o kernel/fdt.o
