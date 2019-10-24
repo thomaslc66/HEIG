@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/DoublyLinkedList.h
+Iterator.h
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/Iterator.h
+Node.h
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/Node.h
+DoublyLinkedListImpl.h
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/DoublyLinkedListImpl.h
+
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/DoublyLinkedListImpl.h
+
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/Iterator.h
+IteratorImp.h
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/IteratorImp.h
+
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/IteratorImp.h
+
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/Node.h
+iosfwd
+-
+ostream
+-
+NodeImpl.h
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/NodeImpl.h
+
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/NodeImpl.h
+
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/main.cpp
+DoublyLinkedList.h
+/cygdrive/d/owncloud/HEIG-VD/CplusPlusProjects/POO2_Labo_03/src/DoublyLinkedList.h
+iostream
+-
+
