@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DLinkedList"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DLinkedList">
+				<Option output="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/DLinkedList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 DLinkedList"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DLinkedList/fast">
+				<Option output="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/DLinkedList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 DLinkedList/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/ConstIterator.h">
+			<Option target="DLinkedList"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/Iterator.h">
+			<Option target="DLinkedList"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/IteratorImpl.h">
+			<Option target="DLinkedList"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/List.h">
+			<Option target="DLinkedList"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/ListImpl.h">
+			<Option target="DLinkedList"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/Node.h">
+			<Option target="DLinkedList"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/NodeImpl.h">
+			<Option target="DLinkedList"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/main.cpp">
+			<Option target="DLinkedList"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Thomas/Nextcloud/HEIG/3eme/POO2/Labo/DLinkedList/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
