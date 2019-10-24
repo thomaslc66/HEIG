@@ -1,0 +1,19 @@
+{
+  "name": "teaching-tweb-2018-labo-01",
+  "version": "1.0.0",
+  "description": "Laboratoire 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaslc66/Teaching-TWEB-2018-Labo-01.git"
+  },
+  "author": "Léchaire Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomaslc66/Teaching-TWEB-2018-Labo-01/issues"
+  },
+  "homepage": "https://github.com/thomaslc66/Teaching-TWEB-2018-Labo-01#readme"
+}

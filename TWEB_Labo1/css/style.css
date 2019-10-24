@@ -1,0 +1,106 @@
+body{
+background-color: #0293D4;
+}
+
+.container {
+  display: flex;
+  height: 300px;
+}
+
+.left_column{
+  width: 150px;
+  margin-right: 15px;
+}
+
+.profile_container {
+  width:800px;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.picture_container{
+  margin-right: 15px;
+}
+
+.profile_upper_row{
+  display: flex;
+  flex-direction: row;
+  margin:30px 30px;
+}
+
+#profile_picture{
+  flex: 1;
+  height: 150px;
+  border-radius: 5px;
+}
+
+#profile_content{
+  flex: 1;
+}
+
+.description{
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.head_title{
+  font-size: 25pt;
+}
+
+.subtitle{
+  font-size: 18pt;
+}
+
+/*------------ lower row ------------ */
+
+.profile_lower_row{
+  display: flex;
+  flex-direction: row;
+  margin:30px 30px;
+}
+
+#follow_button{
+  background-color: #67C15E;
+  border-radius: 5px;
+  border-style: hidden;
+  color: white;
+  font-size: 13pt;
+  padding: 12px;
+}
+
+.right_row{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  padding: 12px 12px 12px 0px;
+  text-align: center
+}
+
+.post_like_comment_nbr{
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.post_like_comment{
+
+}
+
+.multiple_row{
+  flex: 1;
+}
+
+#posts_nbr{
+ 
+}
+
+#likes_nbr{
+ 
+}
+
+#comments_nbr{
+  
+}
+
+
+
