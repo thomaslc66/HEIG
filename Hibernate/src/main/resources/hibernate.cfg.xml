@@ -1,0 +1,24 @@
+<?xml version='1.0' ?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://elara.kreativmedia.ch:3306/Universite?</property>
+        <property name="connection.username">Heig2</property>
+        <property name="connection.password">Heig2017!</property>
+        <property name="connection.pool_size">10</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!--<property name="show_sql">true</property>-->
+        <!--<property name="format_sql">true</property>-->
+        <property name="hbm2ddl.auto">create</property>
+        <mapping class="Inscription"/>
+        <mapping class="Cours"/>
+        <mapping class="Etudiant"/>
+        <mapping class="ChargeDeCours"/>
+        <mapping class="Professeur"/>
+        <mapping class="CoursExterieur"/>
+        <mapping class="Enseignant"/>
+    </session-factory>
+</hibernate-configuration>
