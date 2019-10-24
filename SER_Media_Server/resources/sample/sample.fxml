@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" hgap="10.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <Pane prefHeight="799.0" prefWidth="1085.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <children>
+        <Button fx:id="mediaRecup" alignment="CENTER" disable="false" layoutX="48.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#getProjectionsFromPlexAdmin" prefHeight="73.4931640625" prefWidth="294.0" style="background-color: red;" text="Récupération" textAlignment="CENTER" textOverrun="ELLIPSIS">
+          <font>
+            <Font name="Arial" size="30.0" />
+          </font>
+        </Button>
+        <Label fx:id="connexionStatus" layoutX="48.0" layoutY="167.0" prefWidth="359.0" text="" textAlignment="LEFT" />
+        <Button fx:id="verifConnexion" layoutX="48.0" layoutY="119.0" mnemonicParsing="false" onAction="#checkConnexionToPlexAdmin" text="Vérifier la connexion" textAlignment="CENTER" />
+        <TreeView fx:id="treeView" editable="true" layoutX="407.0" layoutY="25.0" prefHeight="760.0" prefWidth="664.0" showRoot="true" />
+        <ScrollPane fx:id="scrollPane" layoutX="48.0" layoutY="200.0" prefHeight="567.0" prefWidth="345.0">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="566.0" prefWidth="330.0">
+              <children>
+                <Label fx:id="jsonDiplay" layoutX="-72.0" layoutY="-183.0" prefHeight="566.0" prefWidth="344.0" text="">
+                  <font>
+                    <Font size="12.0" />
+                  </font>
+                </Label>
+              </children>
+            </AnchorPane>
+          </content>
+        </ScrollPane>
+      </children>
+    </Pane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>
